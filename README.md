@@ -27,8 +27,6 @@ To run **TikaTic** locally, follow the steps below:
 3. **Open the `index.html` file in your browser**:
    Simply double-click the `index.html` file or open it through your browser's "Open File" option. 🔍
 
-
-
 ## Technologies Used 💻
 
 - **HTML**: Markup for the game structure.
