@@ -17,4 +17,4 @@ To run **TikaTic** locally, follow the steps below:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/tikatics.git
+   git clone https://github.com/KrishBharadwaj5678/TikaTic.git
