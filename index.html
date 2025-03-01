@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./favicon_io/site.webmanifest">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <title>Trixo</title>
+  <style>
+    .col {
+      transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .col:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    }
+    .glow {
+      text-shadow: 0 0 4px rgba(255, 255, 0, 0.8);
+    }
+  </style>
+</head>
+<body class="flex justify-center items-center min-h-screen bg-black text-white p-4">
+  <div class="text-center w-full max-w-sm">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-6 text-yellow-400 glow">Tic Tac Toe</h1>
+    <div id="grid" class="grid grid-cols-3 gap-3 bg-gray-900 p-6 rounded-lg shadow-2xl border-4 border-gray-700">
+      <div onclick="handleClick(this)" id="0" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+      <div onclick="handleClick(this)" id="1" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+      <div onclick="handleClick(this)" id="2" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+      <div onclick="handleClick(this)" id="3" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+      <div onclick="handleClick(this)" id="4" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+      <div onclick="handleClick(this)" id="5" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+      <div onclick="handleClick(this)" id="6" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+      <div onclick="handleClick(this)" id="7" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+      <div onclick="handleClick(this)" id="8" class="col w-20 h-20 md:w-24 md:h-24 flex justify-center items-center text-3xl md:text-4xl font-bold bg-gray-800 rounded-md cursor-pointer shadow-lg"></div>
+    </div>
+    <h2 id="winner" class="mt-4 text-xl md:text-3xl font-semibold hidden text-yellow-400 glow"></h2>
+    <button onclick="resetGame()" class="mt-4 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 rounded-lg text-white font-semibold text-lg shadow-lg transition-transform transform hover:scale-105">Restart</button>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
