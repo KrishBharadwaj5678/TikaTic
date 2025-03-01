@@ -46,4 +46,4 @@ Your contributions will be highly appreciated! Let's make **TikaTic** a better g
 
 ---
 
-Enjoy playing **TikaTic** and good luck! 🎮
+Enjoy playing **TikaTic** and good luck! 
