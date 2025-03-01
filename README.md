@@ -5,7 +5,7 @@ Welcome to **TikaTic**, a modern and interactive web version of the classic Tic 
 ## Features 
 
 ✖️**Two-player gameplay**: Play with a friend on a 3x3 grid, taking turns to place X's and O's. 
-🎨 **Stylish Design**: A modern, sleek interface built using Tailwind CSS and animations. 
+ 🎨 **Stylish Design**: A modern, sleek interface built using Tailwind CSS and animations. 
 - **Smooth Animations**: Animations powered by GSAP for a delightful, interactive experience. 🎬
 - **Confetti Celebration**: Enjoy a confetti explosion 🎉 when a player wins!
 - **Responsive Layout**: Fully responsive design that works seamlessly on both mobile 📱 and desktop 💻 devices.
