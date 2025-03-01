@@ -31,7 +31,7 @@ To run **TikaTic** locally, follow the steps below:
 - **HTML**: Markup for the game structure.
 - **CSS**: Tailwind CSS for a modern and responsive design.
 - **JavaScript**: Game logic and animations.
-- **GSAP** for smooth transitions and animations. 
+- **GSAP**: for smooth transitions and animations. 
 
 ## Contributing 🤝
 
